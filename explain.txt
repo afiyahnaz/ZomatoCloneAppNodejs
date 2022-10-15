@@ -1,0 +1,29 @@
+#1.GET /getLocation
+#2.GET /getRestaurantByLocationId
+#3.GET /getMealTypes
+#4.GEt /getRestaurantDetailsById
+#5.GET /getMenuItemsListByRestaurantId
+
+
+
+1.POST /filter
+     mealType(mandatory)
+     Location
+     Cuisine
+     Hcost - Lcost
+     Sort
+     page
+
+
+#POST /login
+        Email
+        Password
+#POST /signUP
+       Full Name
+       Email
+       Mobile NUmber
+       Password
+
+
+POST /payment
+POST /saveOrder

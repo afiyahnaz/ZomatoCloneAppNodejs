@@ -1,0 +1,18 @@
+{
+  "name": "restaurantedureka-by-naz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "nodemon index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.2",
+    "nodemon": "^2.0.19",
+    "razorpay": "^2.8.3"
+  }
+}

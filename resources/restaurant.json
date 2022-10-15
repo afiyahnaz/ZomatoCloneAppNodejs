@@ -1,0 +1,122 @@
+[
+    {
+      "name": "Domino's",
+      "city": "Delhi",
+      "locationId": 1,
+      "cityId": 1,
+      "locality": "Shalimar Bagh",
+      "thumb": [
+        "assets/breakfast.png",
+        "assets/dinner.png",
+        "assets/drinks.png",
+        "assets/dinner.png"
+      ],
+      "aggregateRating": 4.2,
+      "ratingText": "Very Good",
+      "minPrice": 666,
+      "contactNumber": "919453524651",
+      "cuisineId": [1, 2],
+      "cuisine": [
+        {
+          "id": 1,
+          "name": "North Indian"
+        },
+        {
+          "id": 4,
+          "name": "Fast Food"
+        }
+      ],
+      "image": "assets/breakfast.jpg",
+      "mealtypeId": "1"
+    },
+    {
+      "name": "KFC",
+      "city": "Delhi",
+      "locationId": 1,
+      "cityId": 1,
+      "locality": "Shalimar Bagh",
+      "thumb": [
+        "assets/breakfast.jpg",
+        "assets/dinner.png",
+        "assets/drinks.png",
+        "assets/dinner.png"
+      ],
+      "aggregate_rating": 4.5,
+      "ratingText": "Excellent",
+      "minPrice": 333,
+      "contactNumber": "919453524651",
+      "cuisineId": [2, 4],
+      "cuisine": [
+        {
+          "id": 2,
+          "name": "South Indian"
+        },
+        {
+          "id": 4,
+          "name": "Fast Food"
+        }
+      ],
+      "image": "assets/breakfast.jpg",
+      "mealtypeId": 1
+    },
+    {
+      "name": "Burger King",
+      "city": "Delhi",
+      "locationId": 1,
+      "cityId": 1,
+      "locality": "Shalimar Bagh",
+      "thumb": [
+        "assets/breakfast.jpg",
+        "assets/dinner.png",
+        "assets/drinks.png",
+        "assets/dinner.png"
+      ],
+      "aggregateRating": 4.5,
+      "ratingText": "Excellent",
+      "minPrice": 999,
+      "contactNumber": "919453524651",
+      "cuisineId": [2, 4],
+      "cuisine": [
+        {
+          "id": 2,
+          "name": "South Indian"
+        },
+        {
+          "id": 4,
+          "name": "Fast Food"
+        }
+      ],
+      "image": "assets/breakfast.jpg",
+      "mealtypeId": 1
+    },
+    {
+      "name": "Baba Ka Dhaba",
+      "city": "Delhi",
+      "locationId": 5,
+      "cityId": 1,
+      "locality": "Anand Vihar",
+      "thumb": [
+        "assets/breakfast.jpg",
+        "assets/dinner.png",
+        "assets/drinks.png",
+        "assets/dinner.png"
+      ],
+      "aggregateRating": 3.5,
+      "ratingText": "Excellent",
+      "minPrice": 599,
+      "contactNumber": "919453524651",
+      "cuisineId": [1, 4],
+      "cuisine": [
+        {
+          "id": 1,
+          "name": "North Indian"
+        },
+        {
+          "id": 4,
+          "name": "Fast Food"
+        }
+      ],
+      "image": "assets/breakfast.jpg",
+      "mealtypeId": 2
+    }
+  ]
