@@ -2,8 +2,10 @@
   "name": "restaurantedureka-by-naz",
   "version": "1.0.0",
   "description": "",
-  "main": "nodemon index.js",
-  "scripts": {},
+  "main": "index.js",
+  "scripts": {
+    "start" : "nodemon index.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
