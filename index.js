@@ -36,7 +36,7 @@ mongoose.connect(config.dbConstr,(err,result) => {
 });
 
 
-
+//   https://zomatoclonenodejs.herokuapp.com
 
 app.use('',restauRouter);
 app.use('', locationRouter);
@@ -44,3 +44,10 @@ app.use('', mealTypeRouter);
 app.use('',menuItemRouter);
 app.use('',paymentRouter );
 app.use('',userRouter);
+
+
+
+//    https://zomatoclonereactjs.herokuapp.com
+
+
+//     https://incandescent-kleicha-232b4b.netlify.app
