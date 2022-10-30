@@ -7,7 +7,8 @@ const router = express.Router();
 
 
 //menuItems Routes
-router.get('/api/getMenuItemListByRestaurantId/:restaurantId',menuItemCtrl.getMenuItemListByRestaurantId);
+router.get('/api/getMenuItem',menuItemCtrl.getMenuItem);
+router.post('/api/addMenuItem',menuItemCtrl.addMenuItem );
 
 
 module.exports = router;

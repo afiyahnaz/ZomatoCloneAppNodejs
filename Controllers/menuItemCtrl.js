@@ -1,13 +1,17 @@
 const menuItemModel = require("../models/menuItemModel");
+let menuItems = require("../resources/menuItems.json");
 
-module.exports.getMenuItemListByRestaurantId = async (req,res)=>{
-    let data = req.params;
+
+const getMenuItem = async (req,res) => {
+
+    let id = req.query.rid;
+    id = id ? id : 0;
     try{
-        let result = await menuItemModel.find({ restaurantId: data.restaurantId});
+        let result = await menuItemModel.find({ restaurantId: id});
         res.status(200);
         res.send({
         status:true,
-        result,
+        menuItems:result,
           
         });
 
@@ -15,8 +19,36 @@ module.exports.getMenuItemListByRestaurantId = async (req,res)=>{
         res.status(500);
         res.send({
         status: false,
+        message: "server error",
         error,
         })
     }
    
 };
+
+const  addMenuItem = async (req, res) =>  {
+    try {
+      let result = await MenuItemsModel.insertMany(menuItems);
+      res.status(200).send({
+        status: true,
+        message: "MenuItemsModel added successfully",
+        result,
+      });
+    } catch (error) {
+      res.status(500).send({
+        status: false,
+        message: "server error",
+        error,
+      });
+    }
+  }
+
+
+
+
+
+module.exports ={
+                getMenuItem,
+                addMenuItem 
+
+}
