@@ -5,9 +5,9 @@ const router = express.Router();
 
 
 
-router.post('/api/payment',paymentCtrl.getOrderId);
+router.post('/api/payment/genOrder',paymentCtrl.getOrderId);
 
-router.post('/api/callback',paymentCtrl.verifyPayment);
+router.post('/api/payment/verify',paymentCtrl.verifyPayment);
 
 module.exports = router;
 
