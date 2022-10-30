@@ -36,7 +36,7 @@ mongoose.connect(config.dbConstr,(err,result) => {
 });
 
 
-//   https://zomatoclonenodejs.herokuapp.com
+
 
 app.use('',restauRouter);
 app.use('', locationRouter);
@@ -49,5 +49,6 @@ app.use('',userRouter);
 
 //    https://zomatoclonereactjs.herokuapp.com
 
+//    https://sage-bunny-62e6ad.netlify.app
 
-//     https://incandescent-kleicha-232b4b.netlify.app
+
