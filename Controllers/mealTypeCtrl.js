@@ -2,12 +2,7 @@ const mealTypeModel = require('../models/mealTypeModel');
 const mealType = require("../resources/mealType.json");
 
 
-const apiHome = async (req, res) => {
-    res.status(200),
-    res.send({
-        status: true,
-    })
-};
+
 
 
 const getMealTypeList = async (req,res) => {
@@ -61,7 +56,7 @@ const getMealTypeList = async (req,res) => {
   };
 
 module.exports = {
-                     apiHome, 
+                    
                     getMealTypeList,
                     getMealTypes ,
                     addMealType
